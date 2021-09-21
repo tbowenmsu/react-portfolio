@@ -19,11 +19,11 @@ export const projects = [
     },
     {
         id: uuidv4(),
-        title: "unfinished project 3",
-        desc: "lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet consectetur adipiscing elit lorem ipsum dolor sit amet consectetur adipiscing elit",
+        title: "DevLancer",
+        desc: "Do you have an awesome idea for an app, but lack team members and funding? Well then this is the site for you! Come to devLance share your project with investors looking to fund development. A developer without a project in mind no problem. Search for teams in need of additional developers. The perfect site for investors in search of projects to invest in. Where ever you come from in the tech world there is a home for you at devLance.",
         github: "https://github.com/Curtisaurus/project-dev-lance",
-        demo: "",
-        image: "./images/project3placeholder.png"
+        demo: "https://dev-lance.herokuapp.com/",
+        image: "./images/devLancer.png"
     },
     {
         id: uuidv4(),
@@ -43,10 +43,10 @@ export const projects = [
     },
     {
         id: uuidv4(),
-        title: "WorkDay Planner",
-        desc: "A simple calendar application that allows the user to save events for each hour of the workday. Utilizing jQuery, moment.js, JavaScript, HTML, and CSS. ",
-        github: "https://github.com/tbowenmsu/Workday-Planner",
-        demo: "https://tbowenmsu.github.io/Workday-Planner/",
-        image: "./images/Workday Planner.png"
+        title: "Book Search Engine",
+        desc: "A website for avid readers. It utilizes a search option to find books and add them to your profile to be saved for later. It utilizes MogoDB, Apollo, React, Node.js, and GraphQL",
+        github: "https://github.com/tbowenmsu/book-search-engine",
+        demo: "https://infinite-plains-01274.herokuapp.com/",
+        image: "./images/book-search.png"
     },
 ]
